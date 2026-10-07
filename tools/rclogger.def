@@ -1,0 +1,29 @@
+LIBRARY RCGrandDogW32
+EXPORTS
+  rc_OpenDog @1
+  rc_CheckDog @2
+  rc_GetDogInfo @3
+  rc_GetProductCurrentNo @4
+  rc_CloseDog @5
+  rc_VerifyPassword @6
+  rc_ChangePassword @7
+  rc_Upgrade @8
+  rc_GetRandom @9
+  rc_EncryptData @10
+  rc_DecryptData @11
+  rc_ConvertData @12
+  rc_SetKey @13
+  rc_SignData @14
+  rc_ExecuteFile @15
+  rc_WriteFile @16
+  rc_VisitLicenseFile @17
+  rc_CreateFile @18
+  rc_DeleteFile @19
+  rc_CreateDir @20
+  rc_DeleteDir @21
+  rc_DefragFileSystem @22
+  rc_ReadFile @23
+  rc_GetUpgradeRequestString @24
+  GetError @25
+  rc_GetDogInfoForDB @26
+  rc_UpgradeForDB @27

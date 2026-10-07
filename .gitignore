@@ -1,0 +1,20 @@
+# 构建产物(可用本仓库源码重新生成)
+*.exe
+*.dll
+*.o
+*.obj
+*.res
+*.bin
+*.dmp
+*.log
+*.tsv
+*.zip
+
+# 工具链与第三方环境(体积大,请自行准备;见 README)
+tools/toolchain/
+tools/x86/
+olly110/
+
+# 运行时抓取的数据与内存快照(按 总结_免狗与脱壳.md 可自行复现)
+analysis/
+oepdump_out/
